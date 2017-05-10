@@ -1,0 +1,6 @@
+- name: Pull Image
+  hosts: docker-swarm-server
+  remote_user: root
+  tasks:
+  - name: docker pull image
+      shell: echo 'test'
